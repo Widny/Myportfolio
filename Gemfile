@@ -41,4 +41,6 @@ gem 'spring',        group: :development
 gem 'rails_12factor'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-cookie-rails'
+gem 'pg',   group: :production
+
 
