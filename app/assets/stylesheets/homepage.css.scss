@@ -1,0 +1,165 @@
+// Place all the styles related to the Homepage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  margin: 0;
+  border-bottom: 1em solid orange;
+}
+
+.videohome {
+  position: relative;
+  height: 697.5px;
+  width: 100%;
+  background-size: cover;
+}
+
+.videohome video {
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-left: 1em;
+  margin-top: 10em;
+}
+
+.overlay h1 {
+  color: white;
+  font-size: 3em;
+  margin-bottom: 0;
+  font-family: 'Droid Serif', serif;
+}
+
+.overlay h3 {
+  color: white;
+  font-size: 1.75em;
+  margin-top: 0;
+  font-family: 'Droid Serif', serif;
+  padding-left: 0;
+  text-decoration: none;
+
+}
+
+.overlay h3 ul{
+  list-style-type: none;
+  padding-left: 0;
+  text-decoration: none;
+
+}
+
+// .overlay h3 ul li {
+//   display: inline;
+// }
+.overlay a img {
+  height: 100px;
+}
+
+.overlay h3 ul li a {
+  text-decoration: none;
+}
+
+.overlay h3 ul li a:visited {
+  color: white;
+}
+
+.overlay nav ul {
+  padding-left: .30em;
+}
+
+.overlay nav ul li {
+  display: inline;
+
+}
+.overlay nav ul li a {
+  text-decoration: none;
+  color: orange;
+  margin-right: 0.70em;
+  font-size: 20px;
+  font-family: 'Droid Serif', serif;
+}
+
+.overlay nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+button.btn.btn-primary {
+  margin-top: 10px;
+  height: 50px;
+  width: 150px;
+}
+
+.modal-content {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  width: 650px;
+}
+
+.modal-content img {
+  height: 50px;
+  // margin-left: 80px;
+}
+
+// .model-content a img {
+//   margin;
+// }
+
+section .Summary_left {
+  width: 50%;
+  height: 633px;
+  float: left;
+  background-color: black;
+  border-top: 2em solid orange;
+}
+
+section .Summary_left h2 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  margin-top:5em;
+
+}
+
+section .Summary_Right {
+  width:50%;
+  float: right;
+  height: 633px;
+  background-color: white;
+  border-top: 2em solid orange; 
+  
+}
+
+section .Summary_Right .content {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+section .Summary_Right .content p{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+section #Professional_Experience  {
+  clear :both;
+  
+}
+
+footer {
+  clear: both;
+  background-color: orange;
+  padding-bottom: 0;
+}
+
+footer h3 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 1em;
+  padding-right:3em;
+}

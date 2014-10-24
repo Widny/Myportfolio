@@ -1,0 +1,103 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="resume4.css">
+    <link href='http://fonts.googleapis.com/css?family=Audiowide|Quicksand:300,400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+  </head>
+
+  <body>
+    <header>
+      <!-- I'm only borrowng this image temporarily. Will creat my own. This is only for educational purpose and not commercial use.-->
+      <div class="videohome">
+        <video id="videohome" class="hidden-xs hidden-sm" autoplay="true" loop="" muted="">
+          <source src="http://player.vimeo.com/external/90068336.hd.mp4?s=df933ea0ef031de9a80ddc2814f23d06" type="video/mp4">
+          <source src="/static/vid/electrik-web-bw.webmhd.webm" type="video/webm">
+          <source src="/static/vid/electrik-web-bw.oggtheora.ogv" type="ogv">
+        </video>
+        <div class="overlay">
+          <%= image_tag 'widny.jpg', width: '260', height: '350' %>
+  
+          <h1>Widny St. Louis</h1>
+          <h3>
+            <ul>
+              <li> widny_stlouis1@gmail.com</li>
+              <li> 954-496-1832</li>
+                <!-- <li><a href ="https://www.linkedin.com/pub/widny-st-louis/7/287/a22">Linkedin</a></li>
+                <li><a href ="https://github.com/Widny">Github</a></li> -->
+              </ul>
+          </h3>
+
+
+          <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">About Me</button>
+
+          
+        </div>
+      </div>
+    </header>
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          
+         
+          <h5>Biography</h5>
+          <p>I was born and raised in Miami, FL. My hobbies include reading, writing, traveling, and technology</p>
+           
+          <p> I am a<em><strong> full-stack programmer</em></strong>. I attended Wyncode Academy in July. It is a 9-week intensive immersive coding bootcamp that teaches full-stack development. It is the first coding bootcamp in Florida and is licensed by the Florida Department of Education.</p>
+
+          <p>I fell into programming by accident earlier this year when I realized it was too expensive to hire a developer to help build a project. I decided to join Wyncode because I wanted to learn at an accelerated pace. It was the best decision I ever made. I discovered how much I loved programming when I had goosebumps while we built a Twitter-like application during class.</p> 
+
+          <h5>Skills</h5>
+          <p> HTML, CSS, Git, Github, Ruby, Rails, Sinatra, Heroku, MySQL, PostgreSQL </p>
+
+          <p>I am a self-starter, have strong interpersonal skills, communication skills. Work well in a team environment. </p>
+
+          <h5>What's Next ...</h5>
+          <p>I am looking to join a company with a great culture where I can add value and continue to learn front-end and back-end programming languages.</p> 
+          <br>
+          <h5>Click below to look at my Github and LinkedIn profile.</h5>   
+
+          
+
+          <a href ="https://www.linkedin.com/pub/widny-st-louis/7/287/a22"><%= image_tag 'https://dlc1-s.licdn.com/sites/default/files/InBug-60px-TM.png', width: '60', height: '50'%></a></li>
+          <a href ="https://github.com/Widny"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png"></a></li></br>
+        </div>
+      </div>
+    </div>
+
+
+     <!--  <section id="Summary">
+      <a name="About Me"></a>
+        <section class="Summary_left">
+          <h2>Aspiring Web Developer</h2>
+        </section>
+        <section class="Summary_Right">
+          <div class="content">
+          <p> I am a<em><strong> full-stack programmer</em></strong>. I am looking to join a company with a great culture where I can add value and continue to learn front-end and back-end programming languages.</p> 
+
+
+            <p>I am a self-starter, have strong leadership skills, interpersonal skills, communication skills. Work well in a team environment. </p>
+
+            <p><strong>Core competencies include:</strong> HTML, CSS, Git, Github, Ruby, Rails, Sinatra, Heroku, MySQL, PostgreSQL </p>
+          </div>
+        </section>
+      </section> -->
+
+    <!-- <footer>
+      <h3>Widny St. Louis</h3>
+    </footer> -->
+ 
+
+  </body>
+</html>
