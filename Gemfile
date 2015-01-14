@@ -42,5 +42,5 @@ gem 'rails_12factor'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-cookie-rails'
 gem 'pg',   group: :production
-
+gem 'sqlite3', group: :development
 
